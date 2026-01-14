@@ -21,14 +21,8 @@
   background-position: center;
 }
 
-@mixin contentWidth {
-  width: 166px;
-}
-
 @mixin buy-button {
   height: 40px;
   border-radius: 5px;
 }
 
-@mixin contentInlinePadding {
-}
