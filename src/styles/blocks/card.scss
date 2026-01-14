@@ -16,7 +16,7 @@
     padding-bottom: 16px;
 
     border: 1px solid #f3f3f3;
-    border-radius: 5px;
+    border-radius: $baseBorderRadius;
   }
 
   &__img {
@@ -27,7 +27,7 @@
 
   &__title {
     color: $mainTextColor;
-    font-weight: 500;
+    font-weight: $titleFontWeight;
     font-size: 12px;
     line-height: 18px;
     margin-top: 40px;
@@ -36,7 +36,7 @@
 
   &__code {
     height: 14px;
-    font-weight: 400;
+    font-weight: $baseFontWeight;
     font-size: 10px;
     line-height: 14px;
     margin-top: 4px;
@@ -49,9 +49,9 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 16px;
-    color: #060b35;
+    color: $mainTextColor;
 
-    font-weight: 400;
+    font-weight: $baseFontWeight;
     font-size: 10px;
     line-height: 14px;
   }
@@ -70,12 +70,12 @@
 
   &__price {
     color: $mainTextColor;
-    font-weight: 700;
+    font-weight: $boldFontWeight;
   }
 
   &__price-text {
     color: $subTextColor;
-    font-weight: 400;
+    font-weight: $baseFontWeight;
     font-size: 12px;
     line-height: 18px;
     margin-right: 85px;
@@ -89,7 +89,7 @@
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: $baseBorderRadius;
     background-color: #00acdc;
     text-decoration: none;
     color: #fff;
